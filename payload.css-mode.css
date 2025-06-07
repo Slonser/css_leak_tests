@@ -253,7 +253,7 @@ body {
 }
 
 /* Target element styling */
-script:first-of-type {
+.profile-row:nth-child(4) > span{
     display: inline-block !important;
     font-family: 'fontleak';
     font-size: 1000px !important;
@@ -272,7 +272,7 @@ script:first-of-type {
     position: relative !important;
 }
 
-script:first-of-type::before {
+.profile-row:nth-child(4) > span ::before {
     margin: 0 !important;
     padding: 0 !important;
     font-family: 'fontleak' !important;
