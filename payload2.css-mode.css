@@ -253,7 +253,7 @@ body {
 }
 
 /* Target element styling */
-.profile-row:nth-child(4) > span{
+.value{
     display: inline-block !important;
     font-family: 'fontleak';
     font-size: 1000px !important;
@@ -272,7 +272,7 @@ body {
     position: relative !important;
 }
 
-.profile-row:nth-child(4)>span::before {
+.value::before {
     margin: 0 !important;
     padding: 0 !important;
     font-family: 'fontleak' !important;
